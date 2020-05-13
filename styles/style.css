@@ -1,0 +1,55 @@
+html {
+    background-color: black;
+}
+
+.timedisplay {
+    border: 5px solid white;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    font-size: 72px;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    line-height: 425px;
+    margin: auto;
+    top: 150px;
+    position: relative
+}
+
+.config {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif
+}
+
+button {
+    background-color: black;
+    border: none;
+ 
+}
+
+.toggleButtons {
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    margin-bottom: 5px;
+    
+}
+
+.playerButtons {
+    position: relative;
+    bottom: 350px;
+}
+
+.playerButtons .toggleButtons {
+    height: 30px;
+    width: 30px;
+}
+
+p {
+    display: inline;
+}
