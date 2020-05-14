@@ -29,9 +29,9 @@ function clicked(button) {
                 playing = true;}
             break;
         case 'pause':
-            clearInterval(interval);
+            if (playing == true) {clearInterval(interval);
             playing = false;
-            document.querySelector(".bannerText").innerHTML = "pause";
+            document.querySelector(".bannerText").innerHTML = "pause";}
             break;
          case 'stop':
             playing = false;
