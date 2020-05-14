@@ -1,5 +1,6 @@
 html {
     background-color: black;
+    color: white;
 }
 
 .timedisplay {
@@ -23,7 +24,7 @@ html {
     position: relative;
     top: 200px;
     font-size: 20px;
-    font-family: 'Rubik', sans-serif
+    font-family: 'Montserrat', sans-serif
 }
 
 button {
@@ -52,4 +53,12 @@ button {
 
 p {
     display: inline;
+}
+
+.banner {
+    top: 75px;
+    position: relative;
+    text-align: center;
+    font-family: 'Cedarville Cursive';
+    font-size: 70px;
 }
